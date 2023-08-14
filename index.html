@@ -9,7 +9,25 @@
 </head>
 <body>
     <main>
-        <article>Test here</article>
+        <header>
+            <h1>Expense Tracker</h1>
+            <h2>Add a New Line here:</h2>
+        </header>
+        <article>
+            <form action="" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="date"><br><br>
+                <label for="amount">Amount:</label>
+                <input type="text" id="amount" name="amount"><br><br>
+                <input type="submit" id="submit">
+                <button type="button" onclick="addToList()">Add Expense</button>
+            </form>
+        </article>
+        <article class="table">
+            <table></table>
+        </article>
     </main>
     <script source="script.js"></script>
 </body>
