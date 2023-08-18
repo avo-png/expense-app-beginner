@@ -22,11 +22,18 @@
                 <label for="amount">Amount:</label>
                 <input type="text" id="amount" name="amount"><br><br>
                 <input type="submit" id="submit">
-                <button type="button" onclick="addToList()">Add Expense</button>
+                <!-- <button type="button" onclick="addToList()">Add Expense</button> -->
+                <input type="button" value="Add Expense" onclick="generateTable()" />
             </form>
         </article>
         <article class="table">
-            <table id="list"></table>
+            <table id="list">
+                <tr>
+                    <th id="fcolumn">Item:</th>
+                    <th id="scolumn">Date:</th>
+                    <th id="tcolumn">Amount:</th>
+                </tr>
+            </table>
         </article>
     </main>
     <script source="script.js"></script>

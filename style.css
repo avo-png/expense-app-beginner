@@ -23,3 +23,17 @@ main h2 {
     font-size: 1.3em;
     color: #0f730f;
 }
+
+.table {
+    margin: 10px;
+}
+
+table#list {
+    width: 100%;
+}
+
+table.th {
+    text-align: left;
+    border-color: blue;
+    border: 3px solid;
+}
