@@ -3,11 +3,12 @@
     font-family: 'Kumbh Sans', sans-serif;
     scroll-behavior: smooth;
     transition: all 0.3s linear;
+    background-color: #607D8B;
 }
 
 .center{
     margin: auto;
-    width: 50%;
+    width: 60%;
     padding: 10px;
 }
 
@@ -22,6 +23,17 @@ main h1 {
 main h2 {
     font-size: 1.3em;
     color: #0f730f;
+}
+
+input {
+    font-size: 15px;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+form {
+    font-size: 15px;
 }
 
 .table {
